@@ -63,12 +63,12 @@ const Leaderboard = () => {
 const remainingStudents = students?.slice(3) || [];
   return (
       <div className="w-full bg-cover bg-center min-h-screen" style={{ backgroundImage: "url('/images/building.png')" }}>
-        <div className="border-2 hidden sm:block border-black rounded-md p-4 w-[230px] h-auto mt-[400px] ml-[100px]">
+        <div className="border-2 hidden sm:block border-blue-900 rounded-md p-4 w-[230px] h-auto mt-[400px] ml-[100px]">
   {["weekly", "monthly", "lifetime"].map((type) => (
     <div
       key={type}
       className={`rounded-md px-3 py-2 mb-4 last:mb-0 cursor-pointer ${
-        filter === type ? "bg-blue-100" : "bg-white"
+        filter === type ? "bg-blue-100" : "bg-white text-blue-900" 
       }`}
       onClick={() => setFilter(type)}
     >

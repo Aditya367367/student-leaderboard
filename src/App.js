@@ -1,5 +1,5 @@
 import React from "react";
-import Leaderboard from "./componets/Leaderboard";
+import Leaderboard from "./components/Leaderboard";
 import Footer from "./Footer/Footer";
 import Header from "./header/header";
 
