@@ -131,16 +131,16 @@ const remainingStudents = students?.slice(3) || [];
     </div>
 
     
-    <div className="relative bg-white h-auto p-4 rounded-[20px] text-center shadow-lg translate-y-[-10px] border-2 border-indigo-500 transition-transform duration-300 hover:scale-110">
+    <div className="relative bg-white lg:h-auto h-full p-4 rounded-[20px] text-center shadow-lg translate-y-[-10px] border-2 border-indigo-500 transition-transform duration-300 hover:scale-110">
       
     
-      <div className="relative w-28 h-28 mx-auto ml-[-9px] lg:ml-[20px]">
-        <img src="/images/frame.png" alt="frame" className="absolute inset-0 w-32 h-30 top-2  z-0" />
-        <img src={topThree[0]?.profile_pic} alt={topThree[0]?.name} className="w-20 h-20 rounded-full absolute inset-0 m-auto z-10" />
+      <div className="relative w-auto h-28  mx-auto ml-[-5px] lg:ml-[10px] lg:mb-6 flex justify-center">
+        <img src="/images/frame.png" alt="frame" className="absolute inset-0 lg:-top-2 top-2  h-[105px] lg:h-auto rounded-full mx-aut z-0" />
+        <img src={topThree[0]?.profile_pic} alt={topThree[0]?.name} className="w-20 h-20 rounded-full mx-auto absolute inset-0 m-auto z-10" />
       </div>
 
-  <div className="bg-yellow-500 text-white text-sm font-bold py-1 px-4  rounded-full w-fit mx-auto mt-2 flex items-center gap-2">
-      <span className="text-white text-lg"> <Trophy className="w-6 h-6" stroke="white" fill="white" /></span>Rank: 1 
+  <div className="flex items-center justify-center bg-yellow-500 text-white   text-xs sm:text-sm font-bold py-1 px-3 sm:px-4 rounded-full w-auto mx-auto mt-2">
+      <span className="text-white text-lg"> <Trophy className="w-auto h-auto" stroke="white" fill="white" /></span>Rank: 1 
       </div>
 
     
